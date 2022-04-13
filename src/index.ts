@@ -1,5 +1,4 @@
 import WebSocket from "ws"
-import { getUsername } from "./lib/username"
 
 const PORT = Number(process.env.PORT) || 8082;
 const wss = new WebSocket.Server({ port: PORT });
