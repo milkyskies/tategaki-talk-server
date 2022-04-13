@@ -29,4 +29,3 @@ jobs:
     - run: npm ci
     - run: npm run
     - run: npm run tsc
-    - run: npm run start:prod
