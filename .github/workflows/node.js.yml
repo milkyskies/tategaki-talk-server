@@ -27,6 +27,6 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run tsc
-      with:
-        branch: master
-        folder: build
+    with:
+      branch: master
+      folder: build
