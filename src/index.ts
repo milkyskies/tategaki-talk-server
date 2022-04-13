@@ -1,7 +1,8 @@
 import WebSocket from "ws"
 import { getUsername } from "./lib/username"
 
-const wss = new WebSocket.Server({ port: 8082 });
+const PORT = Number(process.env.PORT) || 8082;
+const wss = new WebSocket.Server({ port: PORT });
 
 type Chat = {
     userId: string,
