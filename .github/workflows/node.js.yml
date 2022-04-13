@@ -25,7 +25,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-        branch: master
-        folder: build
     - run: npm ci
     - run: npm run tsc
