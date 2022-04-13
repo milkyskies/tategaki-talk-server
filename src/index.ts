@@ -1,6 +1,6 @@
 import WebSocket from "ws"
 
-const PORT = Number(process.env.PORT) || 8082;
+const PORT = 8082;
 const wss = new WebSocket.Server({ port: PORT });
 
 type Chat = {
